@@ -5,6 +5,9 @@
     <title>Title</title>
 </head>
 <body>
+<div>
+    <a th:href="@{/product/list}">click vao day de xem danh sach</a>
+</div>
 <form th:action="@{/product/store}" method="post">
     <div>
         <p>Name</p>
@@ -18,6 +21,8 @@
         <p>Quantity</p>
         <input type="text" name="quantity" placeholder="Quantity">
     </div>
+
+
     <input type="submit" value="Submit">
 </form>
 </body>
