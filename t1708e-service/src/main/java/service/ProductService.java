@@ -20,7 +20,6 @@ public class ProductService {
 //        new ProductService().addProduct(product);
 //        new ProductService().sellProduct(1,3);
         System.out.println(new Gson().toJson(new ProductService().getAllProduct()));
-
     }
 
     @WebMethod
